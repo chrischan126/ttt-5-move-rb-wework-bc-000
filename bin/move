@@ -4,11 +4,13 @@ require_relative '../lib/move.rb'
 
 # Code your CLI Here
 
+#OPENING MESSAGE AND DISPLAY BOARD
 puts "Gimme a damn number"
 puts "Which space you wanna make your move in? (1-9)"
+display_board (board)
 
+#
 input = gets.strip
-
 input_to_index (input)
 
 display_board (board)
