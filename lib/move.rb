@@ -1,4 +1,4 @@
-board = Array.new(9, " ")
+board = Array.new()
 
 
 def display_board(board)
