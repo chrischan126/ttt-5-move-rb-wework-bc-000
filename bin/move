@@ -7,5 +7,9 @@ require_relative '../lib/move.rb'
 puts "Gimme a damn number"
 puts "Which space you wanna make your move in? (1-9)"
 
+input = gets.strip
 
+input_to_index (input)
+
+puts index
 
