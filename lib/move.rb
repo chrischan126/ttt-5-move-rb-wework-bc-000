@@ -15,5 +15,5 @@ def input_to_index (input)
 end
 
 def move (index)
- board [index] = 1
+ board [index] = "O"
 end
