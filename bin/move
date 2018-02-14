@@ -2,6 +2,8 @@
 
 require_relative '../lib/move.rb'
 
+board = Array.new(9, " ")
+
 # Code your CLI Here
 
 #SHOW BOARD & ASK WHERE TO GO
