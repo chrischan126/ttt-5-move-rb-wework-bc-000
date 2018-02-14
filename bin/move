@@ -15,7 +15,5 @@ puts "Which space you wanna make your move in? (1-9)"
 input = gets.strip
 input_to_index (input)
 
-display_board (board)
-
-puts index
+puts "#{index}"
 
