@@ -18,9 +18,7 @@ index = input_to_index (input)
 
 display_board (board)
 move(board, index)
-puts board
-puts index
-#puts token
+display_board (board)
 
 
 
