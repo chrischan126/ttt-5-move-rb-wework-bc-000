@@ -13,7 +13,7 @@ puts "Which space you wanna make your move in? (1-9)"
 
 #TAKE INPUT AND GREAT INTEGER TO POPULATE BOARD ARRAY
 input = gets.strip
-input_to_index (input)
+index = input_to_index (input)
 
-index
+puts index
 
