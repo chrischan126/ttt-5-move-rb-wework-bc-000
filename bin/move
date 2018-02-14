@@ -5,4 +5,7 @@ require_relative '../lib/move.rb'
 # Code your CLI Here
 
 puts "Gimme a damn number"
+puts "Which space you wanna make your move in? (1-9)"
+
+
 
